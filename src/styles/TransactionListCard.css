@@ -1,0 +1,60 @@
+.list-card {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid #9b9b9b;
+}
+.list-card .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  padding: 8px;
+}
+
+.list-card .avatar {
+  display: grid;
+  grid-template-columns: 36px auto;
+  gap: 8px;
+}
+
+.list-card .avatar > div {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+.list-card .avatar > div > span {
+  color: #9b9b9b;
+}
+
+.list-card div.actions {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.list-card div.actions > span {
+  color: #f4bb4a;
+  font-size: medium;
+}
+.list-card div.actions > div {
+  display: flex;
+  gap: 5px;
+}
+.list-card button {
+  border-radius: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 37px;
+  width: 37px;
+}
+
+.list-card .action-deny {
+  background-color: #ff3e3e;
+}
+
+.list-card .action-edit {
+  background-color: #f4bb4a;
+}

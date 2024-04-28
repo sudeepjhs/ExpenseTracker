@@ -1,0 +1,12 @@
+.recent-transactions div.card div.footer {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  gap: 8px;
+}
+
+.notFound {
+  display: flex;
+  color: red;
+  justify-content: flex-start;
+}
